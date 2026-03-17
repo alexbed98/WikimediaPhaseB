@@ -45,7 +45,7 @@
     "Description": "Les éléphants ont besoin de boire jusqu'à 200 litres d'eau par jour. Quand un troupeau vient s'abreuver dans un point d'eau infesté de crocodiles du Nil, les petits éléphanteaux sont malheureusement exposés au danger. \r\n\r\n    ",
     "YoutubeId": "8CXbBGngoPM",
     "PublishDate": "2026-02-04T17:55:04.0131468-05:00",
-    "OwnerId": 1,
+    "OwnerId": 2,
     "Shared": true,
     "Id": 5
   },
@@ -55,7 +55,7 @@
     "Description": "Ana Vidovic - FULL CONCERT - CLASSICAL GUITAR - Live from St. Mark's, SF - Omni Foundatio\r\n    ",
     "YoutubeId": "e26zZ83Oh6Y",
     "PublishDate": "2026-02-04T17:56:59.4333651-05:00",
-    "OwnerId": 2,
+    "OwnerId": 1,
     "Shared": true,
     "Id": 6
   },
@@ -128,5 +128,35 @@
     "OwnerId": 1,
     "Shared": true,
     "Id": 13
+  },
+  {
+    "Title": "Do Chairs Exist?",
+    "Category": "Éducatif",
+    "Description": "Vsauce explores the surprisingly complex philosophy of existence, questioning what truly constitutes reality. The video uses everyday objects like chairs and origami to delve into ontology, composition, and the nature of properties. Prepare for a mind-bending journey through philosophical concepts.",
+    "YoutubeId": "fXW-QjBsruE",
+    "PublishDate": "2026-03-16T19:41:50.0001718-04:00",
+    "OwnerId": 2,
+    "Shared": true,
+    "Id": 14
+  },
+  {
+    "Title": "Illusions of Time",
+    "Category": "Éducatif",
+    "Description": "Vsauce explores how our minds distort our perception of time. The video examines \"prospective\" and \"retrospective\" timing, revealing how different experiences impact our memory of duration. Prepare to question your understanding of the past, present, and future.",
+    "YoutubeId": "zHL9GP_B30E",
+    "PublishDate": "2026-03-16T19:53:27.2775949-04:00",
+    "OwnerId": 2,
+    "Shared": true,
+    "Id": 15
+  },
+  {
+    "Title": "How To Count Past Infinity",
+    "Category": "Éducatif",
+    "Description": "Im very grateful to mathematician Hugh Woodin, Professor of Philosophy and Mathematics at Harvard, for taking the time on multiple occasions to discuss this topic with me and help me wrap my (finite) head around it.\r\n\r\nIm also grateful to David Eisenbud, the Director of the Mathematical Sciences Research Institute (MSRI) and professor of mathematics at the University of California, Berkeley, for his help and for connecting me with Hugh Woodin.",
+    "YoutubeId": "SrU9YDoXE88",
+    "PublishDate": "2026-03-16T19:56:34.6665209-04:00",
+    "OwnerId": 2,
+    "Shared": true,
+    "Id": 16
   }
 ]
