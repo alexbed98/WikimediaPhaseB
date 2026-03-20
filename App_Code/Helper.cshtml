@@ -315,7 +315,7 @@
 @helper When(DateTime date, bool showtime = false)
 {
     TimeSpan span = DateTime.Now.Subtract(date);
-    DateTime localTime = date; //date.Subtract(new TimeSpan((int)Session["TimeZoneOffset"], 0, 0));
+    DateTime localTime = date; 
     string lds = localTime.ToLongDateString();
     lds = char.ToUpper(lds[0]) + lds.Substring(1).ToLower();
     if (span.Days > 0)

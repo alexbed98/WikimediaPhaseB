@@ -1,32 +1,48 @@
 ﻿@model Models.Media
+@{
+    var cu = Models.User.ConnectedUser;
+    if (Model != null)
+    {
+        bool canView = Model.Shared || cu.IsAdmin || Model.OwnerId == cu.Id;
+        if (canView)
+        {
+            <dl>
+                <dd>
+                    @Model.Title
+                </dd>
+                <dd>
+                    @Helper.YoutubePlayer(Model.YoutubeId)
+                </dd>
+                <dd class="description">
+                    @Model.Description
+                </dd>
+                <dt>
+                    Catégorie
+                </dt>
 
-@if (Model != null)
-{
-    <dl>
-        <dd>
-            @Model.Title
-        </dd>
-        <dd>
-            @Helper.YoutubePlayer(Model.YoutubeId)
-        </dd>
-        <dd class="description">
-            @Model.Description
-        </dd>
-        <dt>
-            Catégorie
-        </dt>
+                <dd>
+                    @Model.Category
+                </dd>
 
-        <dd>
-            @Model.Category
-        </dd>
+                <dt>
+                    Date de publication
+                </dt>
 
-        <dt>
-            Date de publication
-        </dt>
+                <dd>
+                    @Helper.When(Model.PublishDate)
+                </dd>
 
-        <dd>
-            @Helper.When(Model.PublishDate)
-        </dd>
-
-    </dl>
+            </dl>
+        }
+        else
+        {
+            <h3>
+                Cette vidéo n'est plus partagée
+            </h3>
+        }
+    }
+    else
+    {
+        <h3> La vidéo n'est plus disponible </h3>
+    }
 }

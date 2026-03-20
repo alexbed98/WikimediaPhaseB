@@ -2,6 +2,7 @@
 using Models;
 using System.Collections.Generic;
 using System.Linq;
+using System.Web;
 using System.Web.Mvc;
 using static Controllers.AccessControl;
 
@@ -134,7 +135,6 @@ public class MediasController : Controller
         }
     }
 
-
     public ActionResult List()
     {
         ResetCurrentMediaInfo();
@@ -220,9 +220,15 @@ public class MediasController : Controller
         // modify or delete programatically the all the Medias
 
         int id = Session["CurrentMediaId"] != null ? (int)Session["CurrentMediaId"] : 0;
+        Media Media = DB.Medias.Get(id);
+
+        if ((Media.OwnerId != Models.User.ConnectedUser.Id) && (Models.User.ConnectedUser.Access != Access.Admin))
+        {
+            return Redirect("/Accounts/Login?message=Accès non autorisé!&success=false");
+        }
+
         if (id != 0)
         {
-            Media Media = DB.Medias.Get(id);
             if (Media != null)
                 return View(Media);
         }
@@ -232,20 +238,21 @@ public class MediasController : Controller
     [UserAccess(Access.Write)]
     [HttpPost]
     [ValidateAntiForgeryToken()]
-    public ActionResult Edit(Media Media, string Shared = "off")
+    public ActionResult Edit(Media Media, string SharedStatus = "off")
     {
         // Has explained earlier, id of Media is stored server side an not provided in form data
         // passed in the method in order to prever from malicious requests
 
         int id = Session["CurrentMediaId"] != null ? (int)Session["CurrentMediaId"] : 0;
 
-        // Make sure that the Media of id really exist
         Media storedMedia = DB.Medias.Get(id);
+        // Make sure that the Media of id really exist 
         if (storedMedia != null)
         {
             Media.Id = id; // patch the Id
             Media.PublishDate = storedMedia.PublishDate; // keep orignal PublishDate'
-            Media.Shared = Shared == "on";
+            Media.Shared = SharedStatus == "on";
+            Media.OwnerId = storedMedia.OwnerId; // keep orignal OwnerId
             DB.Medias.Update(Media);
         }
         return RedirectToAction("Details/" + id);
@@ -255,6 +262,15 @@ public class MediasController : Controller
     public ActionResult Delete()
     {
         int id = Session["CurrentMediaId"] != null ? (int)Session["CurrentMediaId"] : 0;
+
+        Media CurrentMedia = DAL.DB.Medias.Get(id);
+        User CurrentUser = Models.User.ConnectedUser;
+
+        if (CurrentMedia.OwnerId != CurrentUser.Id)
+        {
+            return Redirect("/Accounts/Login?message=Accès non autorisé!&success=false");
+        }
+
         if (id != 0)
         {
             DB.Medias.Delete(id);

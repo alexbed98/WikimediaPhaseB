@@ -22,7 +22,7 @@ namespace DAL
 
         static public NotificationsRepository Notifications { get; set; }
             = new NotificationsRepository();
-
+        
         static public LoginsRepository Logins { get; set; }
             = new LoginsRepository();
 
