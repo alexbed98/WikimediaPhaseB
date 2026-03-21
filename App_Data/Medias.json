@@ -1,1 +1,122 @@
-[{"Title":"La fabrication du chocolat","Category":"Reportage","Description":"De la cabosse à la tablette de chocolat, découvrez les transformations subies par les fèves de cacao.\r\nLa chocolaterie Alex Olivier propose des visites guidée dégustation toute l'année.","YoutubeId":"M0XWLDxqo2E","PublishDate":"2026-02-04T17:48:23.4371435-05:00","OwnerId":1,"Shared":true,"Id":2},{"Title":"La baleine bleue","Category":"Documentaire","Description":"La baleine bleue, appelée aussi rorqual bleu, est une espèce de cétacés de la famille des balænopteridés. Sa longueur moyenne est de 25 à 27 m pour une masse de 130 tonnes, les femelles étant plus grandes que les mâles.\r\n    ","YoutubeId":"-TRwh0vPquU","PublishDate":"2026-02-04T17:53:22.584311-05:00","OwnerId":1,"Shared":true,"Id":4},{"Title":"Do Chairs Exist???","Category":"Éducatif","Description":"Vsauce explores the surprisingly complex philosophy of existence, questioning what truly constitutes reality. The video uses everyday objects like chairs and origami to delve into ontology, composition, and the nature of properties. Prepare for a mind-bending journey through philosophical concepts.","YoutubeId":"fXW-QjBsruE","PublishDate":"2026-03-16T19:41:50.0001718-04:00","OwnerId":2,"Shared":true,"Id":14},{"Title":"Illusions of Time","Category":"Éducatif","Description":"Vsauce explores how our minds distort our perception of time. The video examines \"prospective\" and \"retrospective\" timing, revealing how different experiences impact our memory of duration. Prepare to question your understanding of the past, present, and future.","YoutubeId":"zHL9GP_B30E","PublishDate":"2026-03-16T19:53:27.2775949-04:00","OwnerId":2,"Shared":true,"Id":15},{"Title":"There Is Something Faster Than Light","Category":"Éducatif","Description":"How an argument between Einstein and Bohr changed quantum mechanics forever. \r\n","YoutubeId":"NIk_0AW5hFU","PublishDate":"2026-03-20T14:47:55.2768192-04:00","OwnerId":2,"Shared":true,"Id":16},{"Title":" The Closest Weve Come to a Theory of Everything","Category":"Éducatif","Description":"The single principle that underpins all of physics. Head to https://brilliant.org/veritasium to start your free 30-day trial and get 20% off an annual premium subscription.\r\n","YoutubeId":"Q10_srZ-pbs","PublishDate":"2026-03-20T14:48:41.4776814-04:00","OwnerId":2,"Shared":true,"Id":17}]
+[
+  {
+    "Title": "Do Chairs Exist???",
+    "Category": "Éducatif",
+    "Description": "Vsauce explores the surprisingly complex philosophy of existence, questioning what truly constitutes reality. The video uses everyday objects like chairs and origami to delve into ontology, composition, and the nature of properties. Prepare for a mind-bending journey through philosophical concepts.",
+    "YoutubeId": "fXW-QjBsruE",
+    "PublishDate": "2026-03-16T19:41:50.0001718-04:00",
+    "OwnerId": 2,
+    "Shared": true,
+    "Id": 14
+  },
+  {
+    "Title": "Illusions of Time",
+    "Category": "Éducatif",
+    "Description": "Vsauce explores how our minds distort our perception of time. The video examines \"prospective\" and \"retrospective\" timing, revealing how different experiences impact our memory of duration. Prepare to question your understanding of the past, present, and future.",
+    "YoutubeId": "zHL9GP_B30E",
+    "PublishDate": "2026-03-16T19:53:27.2775949-04:00",
+    "OwnerId": 2,
+    "Shared": true,
+    "Id": 15
+  },
+  {
+    "Title": "There Is Something Faster Than Light",
+    "Category": "Éducatif",
+    "Description": "How an argument between Einstein and Bohr changed quantum mechanics forever. \r\n",
+    "YoutubeId": "NIk_0AW5hFU",
+    "PublishDate": "2026-03-20T14:47:55.2768192-04:00",
+    "OwnerId": 2,
+    "Shared": true,
+    "Id": 16
+  },
+  {
+    "Title": " The Closest Weve Come to a Theory of Everything",
+    "Category": "Éducatif",
+    "Description": "The single principle that underpins all of physics. Head to https://brilliant.org/veritasium to start your free 30-day trial and get 20% off an annual premium subscription.\r\n",
+    "YoutubeId": "Q10_srZ-pbs",
+    "PublishDate": "2026-03-20T14:48:41.4776814-04:00",
+    "OwnerId": 2,
+    "Shared": true,
+    "Id": 17
+  },
+  {
+    "Title": "The Odyssey | Official Trailer",
+    "Category": "Cinéma",
+    "Description": "Christopher Nolans next film, The Odyssey, is a mythic action epic shot across the world using brand new IMAX® film technology. The film brings Homers foundational saga to IMAX® film screens for the first time and opens in theaters everywhere on July 17, 2026. ",
+    "YoutubeId": "Mzw2ttJD2qQ",
+    "PublishDate": "2026-03-20T21:48:18.951744-04:00",
+    "OwnerId": 1,
+    "Shared": true,
+    "Id": 18
+  },
+  {
+    "Title": "The Irishman | Official Trailer | Netflix",
+    "Category": "Cinéma",
+    "Description": "Robert De Niro, Al Pacino and Joe Pesci star in Martin Scorseses THE IRISHMAN, an epic saga of organized crime in post-war America told through the eyes of World War II veteran Frank Sheeran, a hustler and hitman who worked alongside some of the most notorious figures of the 20th century. Spanning decades, the film chronicles one of the greatest unsolved mysteries in American history, the disappearance of legendary union boss Jimmy Hoffa, and offers a monumental journey through the hidden corridors of organized crime: its inner workings, rivalries and connections to mainstream politics.",
+    "YoutubeId": "WHXxVmeGQUc",
+    "PublishDate": "2026-03-20T21:49:18.1586031-04:00",
+    "OwnerId": 1,
+    "Shared": true,
+    "Id": 19
+  },
+  {
+    "Title": " ONCE UPON A TIME IN HOLLYWOOD - Official Trailer (HD) ",
+    "Category": "Cinéma",
+    "Description": "Quentin Tarantinos ONCE UPON A TIME IN HOLLYWOOD visits 1969 Los Angeles, where everything is changing, as TV star Rick Dalton (Leonardo DiCaprio) and his longtime stunt double Cliff Booth (Brad Pitt) make their way around an industry they hardly recognize anymore. The ninth film from the writer-director features a large ensemble cast and multiple storylines in a tribute to the final moments of Hollywoods golden age.  ",
+    "YoutubeId": "ELeMaP8EPAA",
+    "PublishDate": "2026-03-20T21:49:59.8295378-04:00",
+    "OwnerId": 1,
+    "Shared": true,
+    "Id": 20
+  },
+  {
+    "Title": " Oppenheimer | New Trailer ",
+    "Category": "Cinéma",
+    "Description": "Written and directed by Christopher Nolan, Oppenheimer is an IMAX®-shot epic thriller that thrusts audiences into the pulse-pounding paradox of the enigmatic man who must risk destroying the world in order to save it. ",
+    "YoutubeId": "uYPbbksJxIg",
+    "PublishDate": "2026-03-20T21:50:35.661148-04:00",
+    "OwnerId": 1,
+    "Shared": true,
+    "Id": 21
+  },
+  {
+    "Title": " Trumps $200B request for war in Iran would have funded a year of the Iraq war: Ham ",
+    "Category": "Actualités",
+    "Description": "U.S. political analyst Eric Ham discusses the magnitude of U.S. President Donald Trump seeking an additional $200B in funding for the war in Iran.",
+    "YoutubeId": "IO37o2js6eU",
+    "PublishDate": "2026-03-20T21:52:10.0909613-04:00",
+    "OwnerId": 1,
+    "Shared": true,
+    "Id": 22
+  },
+  {
+    "Title": " Pentagon sending 3 more warships, thousands of marines to Middle East: U.S. media reports ",
+    "Category": "Actualités",
+    "Description": "The Pentagon is sending three additional warships and thousands of marines to the Middle East, according to U.S. media reports citing officials. The marines are reportedly from the USS Boxer Amphibious Ready Group and the 11th Marine Expeditionary Unit.",
+    "YoutubeId": "EafvnrOH48Y",
+    "PublishDate": "2026-03-20T21:52:53.0151035-04:00",
+    "OwnerId": 1,
+    "Shared": true,
+    "Id": 23
+  },
+  {
+    "Title": " Race Highlights | 2026 Chinese Grand Prix ",
+    "Category": "Sports",
+    "Description": "Catch up on an absolute thriller in Shanghai with an emotional finish.",
+    "YoutubeId": "t8HpVlineX4",
+    "PublishDate": "2026-03-20T21:53:29.8787454-04:00",
+    "OwnerId": 1,
+    "Shared": true,
+    "Id": 24
+  },
+  {
+    "Title": " Top 10 NHL Shootout Goals of All-Time ",
+    "Category": "Sports",
+    "Description": "Since the NHL lockout presented us with the shootout there has been a plethora of unique and awesome goals. Take a look at the top-10 shootout goals of all-time.",
+    "YoutubeId": "LZ4TEhdfLQw",
+    "PublishDate": "2026-03-20T21:54:07.1275665-04:00",
+    "OwnerId": 1,
+    "Shared": true,
+    "Id": 25
+  }
+]

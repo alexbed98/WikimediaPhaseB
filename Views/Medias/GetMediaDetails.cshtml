@@ -1,15 +1,25 @@
 ﻿@model Models.Media
 @{
-    var cu = Models.User.ConnectedUser;
+    var connectedUser = Models.User.ConnectedUser;
     if (Model != null)
     {
-        bool canView = Model.Shared || cu.IsAdmin || Model.OwnerId == cu.Id;
+        bool canView = Model.Shared || connectedUser.IsAdmin || Model.OwnerId == connectedUser.Id;
+        User mediaOwner = DAL.DB.Users.Get(Model.OwnerId);
         if (canView)
         {
             <dl>
+                @if (Model.Shared && (connectedUser.Id == Model.OwnerId || connectedUser.IsAdmin))
+                {
+                    <dd>
+                        <span style="color:grey">[Partagée]</span>
+                    </dd>
+                }
+
+
                 <dd>
                     @Model.Title
                 </dd>
+
                 <dd>
                     @Helper.YoutubePlayer(Model.YoutubeId)
                 </dd>
@@ -30,6 +40,14 @@
 
                 <dd>
                     @Helper.When(Model.PublishDate)
+                </dd>
+
+                <dt>
+                    Ajouté par
+                </dt>
+
+                <dd>
+                    @Helper.AvatarUser(mediaOwner)
                 </dd>
 
             </dl>
